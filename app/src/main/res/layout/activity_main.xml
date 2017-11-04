@@ -3,42 +3,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+    android:background="@drawable/motto"
 
     tools:context="com.example.donornation.MainActivity">
 
 
-    <ImageView
-        android:id="@+id/donor_image_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="20dp"
-        android:src="@drawable/blood_nation_banner"/>
-
-
-
-    <TextView
-        android:id="@+id/moto_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="MOTTO"
-        android:layout_alignBottom="@id/donor_image_view"
-        android:textAllCaps="true"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:typeface="serif" />
-
-    <!--TODO Change the text of the buuton and style of the button -->
     <Button
-        android:id="@+id/next_activity_button"
+        android:id="@+id/beadonor_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/alreadyadonor_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="158dp"
+        android:layout_marginEnd="15dp"
+        android:background="#F44336"
+        android:onClick=""
+        android:text="BE A DONOR"
+        android:textColor="@android:color/white"
+        tools:ignore="OnClick" />
+
+    <Button
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/beadonor_button"
+        android:layout_alignTop="@+id/beadonor_button"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="63dp"
+        android:background="#FFFFFF"
+        android:text="Find a donor"
+        android:textColor="#EF5350"/>
+
+    <Button
+        android:id="@+id/alreadyadonor_button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"
-        android:text="Next"
+        android:text="ALREADY A DONOR LOGIN"
         android:onClick=""
         tools:ignore="OnClick" />
 </RelativeLayout>
