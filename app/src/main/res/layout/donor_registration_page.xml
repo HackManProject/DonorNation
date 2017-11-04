@@ -172,7 +172,8 @@
                 android:layout_height="wrap_content"
                 android:text="I have read the guidelines and i agree to continue."/>
         </LinearLayout>
-        <Button
+
+    <Button
             android:id="@+id/submit_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

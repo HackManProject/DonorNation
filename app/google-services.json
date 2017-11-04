@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "232264083356-a9rc8081d8pltdpsdka4f0ap5bnovd38.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.donornation",
+            "certificate_hash": "61f605920474bb571f3047e53f86b5476b7e3b28"
+          }
+        },
+        {
           "client_id": "232264083356-acuaj8q4h9p2hg7ckeo141e85ti0a496.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
