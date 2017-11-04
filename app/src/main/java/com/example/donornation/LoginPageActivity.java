@@ -17,7 +17,7 @@ public class LoginPageActivity extends AppCompatActivity {
         donar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(LoginPageActivity.this, MainActivity.class);
+                Intent myIntent = new Intent(LoginPageActivity.this, DonorRegistrationPageActivity.class);
                 startActivity(myIntent);
             }
         });
