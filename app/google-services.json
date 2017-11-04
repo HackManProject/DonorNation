@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "232264083356",
+    "firebase_url": "https://donornation-ccbb7.firebaseio.com",
+    "project_id": "donornation-ccbb7",
+    "storage_bucket": "donornation-ccbb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232264083356:android:8bcc2e5b33cda738",
+        "android_client_info": {
+          "package_name": "com.example.donornation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232264083356-qtutdo7v8s0kn4kunerblklsp8kmmjib.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.donornation",
+            "certificate_hash": "2457e8c4ac8d7fd4a3c884d8568024b4d7665caf"
+          }
+        },
+        {
+          "client_id": "232264083356-p0rcqb80v0ipor9uag1kb59ckbh9rv0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXWqY45Uad6FOHBaAZTufoebm-GRvdDe8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232264083356-p0rcqb80v0ipor9uag1kb59ckbh9rv0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
