@@ -29,11 +29,20 @@ public class MainActivity extends AppCompatActivity {
         */
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button next = (Button) findViewById(R.id.beadonor_button);
-        next.setOnClickListener(new View.OnClickListener() {
+        Button beADonor = (Button) findViewById(R.id.beadonor_button);
+        beADonor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent myIntent = new Intent(MainActivity.this, DonorRegistrationPageActivity.class);
+                startActivity(myIntent);
+
+            }
+        });
+        Button alreadyADonor = (Button) findViewById(R.id.alreadyadonor_button);
+        alreadyADonor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(MainActivity.this, SignInActivity.class);
                 startActivity(myIntent);
             }
         });
